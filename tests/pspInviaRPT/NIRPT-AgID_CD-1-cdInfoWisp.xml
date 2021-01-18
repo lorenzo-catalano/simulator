@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:cdInfoWispResponse>
+            <esito>OK</esito>
+        </ws:cdInfoWispResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

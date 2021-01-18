@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:ws="http://ws.pagamenti.telematici.gov/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+    <ws:nodoInviaCarrelloRPTRisposta>
+        <esitoComplessivoOperazione>KO</esitoComplessivoOperazione>
+        <listaErroriRPT>
+            <fault>
+                <faultCode>PPT_CANALE_ERRORE</faultCode>
+                <faultString>Errore restituito dal Canale.</faultString>
+                <id>NodoDeiPagamentiSPC</id>
+                <description>FaultCode PSP: CANALE_FIRMA_SCONOSCIUTA
+                    FaultString PSP: La firma è sconosciuta
+                    Description PSP:</description>
+                <serial>1</serial>
+            </fault>
+        </listaErroriRPT>
+    </ws:nodoInviaCarrelloRPTRisposta>
+</soapenv:Body>
+</soapenv:Envelope>

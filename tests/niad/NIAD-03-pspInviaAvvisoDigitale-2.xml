@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:pspInviaAvvisoDigitaleRisposta>
+            <esitoOperazione>OK</esitoOperazione>
+        </ws:pspInviaAvvisoDigitaleRisposta>
+    </soapenv:Body>
+</soapenv:Envelope>

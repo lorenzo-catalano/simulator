@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:psp="http://pagopa-api.pagopa.gov.it/psp/pspForNode.xsd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <psp:pspSendPaymentRes>
+         <outcome>?</outcome>
+         <!--Optional:-->
+         <fault>
+            <faultCode>?</faultCode>
+            <faultString>?</faultString>
+            <id>?</id>
+            <!--Optional:-->
+            <description>?</description>
+            <!--Optional:-->
+            <serial>?</serial>
+            <!--Optional:-->
+            <originalFaultCode>?</originalFaultCode>
+            <!--Optional:-->
+            <originalFaultString>?</originalFaultString>
+            <!--Optional:-->
+            <originalDescription>?</originalDescription>
+         </fault>
+         <!--Optional:-->
+         <transferDate>?</transferDate>
+      </psp:pspSendPaymentRes>
+   </soapenv:Body>
+</soapenv:Envelope>

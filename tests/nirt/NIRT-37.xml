@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ppthead="http://ws.pagamenti.telematici.gov/ppthead" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Body>
+        <ws:nodoInviaRTRisposta>
+            <nodoInviaRTRisposta>
+                <esito>KO</esito>
+            </nodoInviaRTRisposta>
+        </ws:nodoInviaRTRisposta>
+    </soapenv:Body>
+</soapenv:Envelope>

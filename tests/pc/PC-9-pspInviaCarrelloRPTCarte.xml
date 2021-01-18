@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:pspInviaCarrelloRPTCarteResponse>
+            <pspInviaCarrelloRPTResponse>
+                <esitoComplessivoOperazione>KO</esitoComplessivoOperazione>
+                <listaErroriRPT>
+                    <fault>
+                        <faultCode>faultCodeResponse</faultCode>
+                        <faultString>faultStringResponse</faultString>
+                        <id>idResponse</id>
+                        <description>descriptionResponse</description>
+                    </fault>
+                </listaErroriRPT>
+            </pspInviaCarrelloRPTResponse>
+        </ws:pspInviaCarrelloRPTCarteResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

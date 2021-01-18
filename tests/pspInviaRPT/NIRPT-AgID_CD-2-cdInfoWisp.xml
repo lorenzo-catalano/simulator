@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:cdInfoWispResponse>
+            <fault>
+                <faultCode>PPT_ERRORE</faultCode>
+                <faultString>fault generico</faultString>
+                <id>1</id>
+                <description>ko generico</description>
+                <serial>123456</serial>
+                <!--originalFaultCode>?</originalFaultCode>
+                <originalFaultString>?</originalFaultString>
+                <originalDescription>?</originalDescription>-->
+            </fault>
+        </ws:cdInfoWispResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

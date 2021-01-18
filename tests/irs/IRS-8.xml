@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:pspInviaRichiestaStornoResponse>
+            <pspInviaRichiestaStornoResponse>
+                <fault>
+                    <faultCode>ERRORE1</faultCode>
+                    <faultString>ERRORE1</faultString>
+                    <id>123456</id>
+                    <!--Optional:-->
+                    <description>ERRORE1 123456</description>
+                    <!--Optional:-->
+                    <serial>123456</serial>
+                </fault>
+                <esito>KO</esito>
+            </pspInviaRichiestaStornoResponse>
+        </ws:pspInviaRichiestaStornoResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

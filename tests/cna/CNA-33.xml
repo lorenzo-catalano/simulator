@@ -1,0 +1,60 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/" xmlns:pag="http://www.digitpa.gov.it/schemas/2011/Pagamenti/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:paaChiediNumeroAvvisoRisposta>
+            <paaChiediNumeroAvvisoRisposta>
+                <esito>OK</esito>
+                <!--Optional:-->
+                <numeroAvviso>
+                    <auxDigit>1</auxDigit>
+                    <!--Optional:-->
+                    <!--<applicationCode>?</applicationCode>-->
+                    <IUV>111111111111111</IUV>
+                </numeroAvviso>
+                <!--Optional:-->
+                <datiPagamentoPA>
+                    <importoSingoloVersamento>10</importoSingoloVersamento>
+                    <ibanAccredito>IT96R0123454321000000012345</ibanAccredito>
+                    <!--Optional:-->
+                    <bicAccredito>AAAAAABC000</bicAccredito>
+                    <!--Optional:-->
+                    <enteBeneficiario>
+                        <pag:identificativoUnivocoBeneficiario>
+                            <pag:tipoIdentificativoUnivoco>G</pag:tipoIdentificativoUnivoco>
+                            <pag:codiceIdentificativoUnivoco>CTLXXX75S06A940H</pag:codiceIdentificativoUnivoco>
+                        </pag:identificativoUnivocoBeneficiario>
+                        <pag:denominazioneBeneficiario>Beneficiario</pag:denominazioneBeneficiario>
+                        <!--Optional:-->
+                        <pag:codiceUnitOperBeneficiario>codiceUnitOperBeneficiario</pag:codiceUnitOperBeneficiario>
+                        <!--Optional:-->
+                        <pag:denomUnitOperBeneficiario></pag:denomUnitOperBeneficiario>
+                        <!--Optional:-->
+                        <pag:indirizzoBeneficiario>via del beneficiario</pag:indirizzoBeneficiario>
+                        <!--Optional:-->
+                        <pag:civicoBeneficiario>1</pag:civicoBeneficiario>
+                        <!--Optional:-->
+                        <pag:capBeneficiario>20021</pag:capBeneficiario>
+                        <!--Optional:-->
+                        <pag:localitaBeneficiario>Bollate</pag:localitaBeneficiario>
+                        <!--Optional:-->
+                        <pag:provinciaBeneficiario>MI</pag:provinciaBeneficiario>
+                        <!--Optional:-->
+                        <pag:nazioneBeneficiario>IT</pag:nazioneBeneficiario>
+                    </enteBeneficiario>
+                    <!--Optional:-->
+                    <!--<credenzialiPagatore>?</credenzialiPagatore>-->
+                    <!--You have a CHOICE of the next 2 items at this level-->
+                    <!--<causaleVersamento>?</causaleVersamento>-->
+                    <spezzoniCausaleVersamento>
+                        <!--You have a CHOICE of the next 2 items at this level-->
+                        <!--<spezzoneCausaleVersamento>?</spezzoneCausaleVersamento>-->
+                        <spezzoneStrutturatoCausaleVersamento>
+                            <causaleSpezzone>ca</causaleSpezzone>
+                            <importoSpezzone>10</importoSpezzone>
+                        </spezzoneStrutturatoCausaleVersamento>
+                    </spezzoniCausaleVersamento>
+                </datiPagamentoPA>
+            </paaChiediNumeroAvvisoRisposta>
+        </ws:paaChiediNumeroAvvisoRisposta>
+    </soapenv:Body>
+</soapenv:Envelope>

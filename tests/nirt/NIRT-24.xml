@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <paaInviaRTRispost>
+            <paaInviaRTRisposta>
+                <esit>OK</esit>
+            </paaInviaRTRisposta>
+        </paaInviaRTRispost>
+    </soapenv:Body>
+</soapenv:Envelope>

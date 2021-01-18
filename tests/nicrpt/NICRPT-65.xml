@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:ws="http://ws.pagamenti.telematici.gov/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ws:nodoInviaCarrelloRPTRisposta>
+            <esitoComplessivoOperazione>KO</esitoComplessivoOperazione>
+            <listaErroriRPT/>
+        </ws:nodoInviaCarrelloRPTRisposta>
+    </soapenv:Body>
+</soapenv:Envelope>

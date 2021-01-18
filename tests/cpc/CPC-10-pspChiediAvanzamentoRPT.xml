@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:pspChiediAvanzamentoRPTResponse>
+            <pspChiediAvanzamentoRPTResponse>
+                <!--Optional:-->
+                <fault>
+                    <faultCode>CANALE_RPT_RIFIUTATA</faultCode>
+                    <faultString>CANALE_RPT_RIFIUTATA</faultString>
+                    <id>id</id>
+                    <!--Optional:-->
+                    <description>desc</description>
+                    <!--Optional:-->
+                    <serial>1</serial>
+                </fault>
+                <!--Optional:-->
+                <!--<value>?</value>-->
+            </pspChiediAvanzamentoRPTResponse>
+        </ws:pspChiediAvanzamentoRPTResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <ns1:pspInviaRPTResponse xmlns:ns1="http://ws.pagamenti.telematici.gov/" xmlns:ns2="http://www.cnipa.gov.it/schemas/2010/Pagamenti/Ack_1_0/">
+            <pspInviaRPTResponse>
+                <esitoComplessivoOperazione>KO</esitoComplessivoOperazione>
+                <listaErroriRPT>
+                    <fault>
+                        <faultCode>PPT_ERRORE_EMESSO_DA_PAA</faultCode>
+                        <faultString>Errore restituito dalla PAA.</faultString>
+                        <id>PaS</id>
+                        <description>Errore ACK REJECTED in SOAP response della action paaInviaRPT</description>
+                    </fault>
+                    <fault>
+                        <faultCode>PPT_ERRORE_EMESSO_DA_PAA</faultCode>
+                        <faultString>Errore restituito dalla PAA.</faultString>
+                        <id>PaS</id>
+                        <description>Errore ACK REJECTED in SOAP response della action paaInviaRPT</description>
+                    </fault>
+                </listaErroriRPT>
+            </pspInviaRPTResponse>
+        </ns1:pspInviaRPTResponse>
+    </soap:Body>
+</soap:Envelope>

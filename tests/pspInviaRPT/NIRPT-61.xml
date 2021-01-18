@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <ns1:pspInviaRPTResponse xmlns:ns1="http://ws.pagamenti.telematici.gov/" xmlns:ns2="http://www.cnipa.gov.it/schemas/2010/Pagamenti/Ack_1_0/">
+            <pspInviaRPTResponse>
+                <esitoComplessivoOperazione>KO</esitoComplessivoOperazione>
+                <listaErroriRPT>
+                    <fault>
+                        <faultCode>CIAO</faultCode>
+                        <faultString>ciao</faultString>
+                        <id>PaS</id>
+                        <description>some description</description>
+                    </fault>
+                </listaErroriRPT>
+            </pspInviaRPTResponse>
+        </ns1:pspInviaRPTResponse>
+    </soap:Body>
+</soap:Envelope>

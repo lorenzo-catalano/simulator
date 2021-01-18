@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:paaInviaEsitoStornoRisposta>
+            <paaInviaEsitoStornoRisposta>
+                <!--Optional:-->
+                <!--<fault>-->
+                    <!--<faultCode>?</faultCode>-->
+                    <!--<faultString>?</faultString>-->
+                    <!--<id>?</id>-->
+                    <!--&lt;!&ndash;Optional:&ndash;&gt;-->
+                    <!--<description>?</description>-->
+                    <!--&lt;!&ndash;Optional:&ndash;&gt;-->
+                    <!--<serial>?</serial>-->
+                <!--</fault>-->
+                <!--Optional:-->
+                <esito>OK</esito>
+            </paaInviaEsitoStornoRisposta>
+        </ws:paaInviaEsitoStornoRisposta>
+    </soapenv:Body>
+</soapenv:Envelope>

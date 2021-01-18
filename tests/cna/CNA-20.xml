@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/" xmlns:pag="http://www.digitpa.gov.it/schemas/2011/Pagamenti/">
+<soapenv:Header/>
+<soapenv:Body>
+    <ws:paaChiediNumeroAvvisoRisposta>
+        <paaChiediNumeroAvvisoRisposta>
+            <esito></esito>
+            <numeroAvviso>
+                <auxDigit>0</auxDigit>
+                <applicationCode>11</applicationCode>
+                <IUV>FFFFFF</IUV>
+            </numeroAvviso>
+            <datiPagamentoPA>
+                <importoSingoloVersamento>10</importoSingoloVersamento>
+                <ibanAccredito>IT96R0123454321000000012345</ibanAccredito>
+                <bicAccredito>AAAAAABC000</bicAccredito>
+                <spezzoniCausaleVersamento>
+                    <spezzoneStrutturatoCausaleVersamento>
+                        <causaleSpezzone>ca</causaleSpezzone>
+                        <importoSpezzone>10</importoSpezzone>
+                    </spezzoneStrutturatoCausaleVersamento>
+                </spezzoniCausaleVersamento>
+            </datiPagamentoPA>
+        </paaChiediNumeroAvvisoRisposta>
+    </ws:paaChiediNumeroAvvisoRisposta>
+</soapenv:Body>
+</soapenv:Envelope>

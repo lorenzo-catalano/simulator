@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ppthead="http://ws.pagamenti.telematici.gov/ppthead" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+    <soapenv:Body>
+        <ws:nodoInviaRTRisposta>
+            <nodoInviaRTRisposta>
+                <fault>
+                    <faultCode>PPT_ERRORE_EMESSO_DA_PAA</faultCode>
+                    <faultString>Errore restituito dalla PAA.</faultString>
+                    <id>PaS</id>
+                    <description>Errore ACK REJECTED in SOAP response della action paaInviaRT</description>
+                </fault>
+                <esito>KO</esito>
+            </nodoInviaRTRisposta>
+        </ws:nodoInviaRTRisposta>
+    </soapenv:Body>
+</soapenv:Envelope>

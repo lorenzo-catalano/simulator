@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:paaInviaEsitoStornoRisposta>
+         <paaInviaEsitoStornoRisposta>
+            <!--
+            <fault>
+               <faultCode>PAA_SEMANTICA</faultCode>
+               <faultString>Errore semantico.</faultString>
+               <id>${pa}</id>
+               <description>RR rifiutata PA</description>
+            </fault>
+ -->
+            <esito>OK</esito>
+         </paaInviaEsitoStornoRisposta>
+      </ws:paaInviaEsitoStornoRisposta>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/" xmlns:pag="http://www.digitpa.gov.it/schemas/2011/Pagamenti/">
+<soapenv:Header/>
+<soapenv:Body>
+    <ws:paaChiediNumeroAvvisoRisposta>
+        <paaChiediNumeroAvvisoRisposta>
+            <!--Optional:-->
+            <!--<fault>-->
+                <!--<faultCode>?</faultCode>-->
+                <!--<faultString>?</faultString>-->
+                <!--<id>?</id>-->
+                <!--&lt;!&ndash;Optional:&ndash;&gt;-->
+                <!--<description>?</description>-->
+                <!--&lt;!&ndash;Optional:&ndash;&gt;-->
+                <!--<serial>?</serial>-->
+            <!--</fault>-->
+            <esito>OK</esito>
+            <!--Optional:-->
+            <numeroAvviso>
+                <auxDigit>0</auxDigit>
+                <!--Optional:-->
+                <applicationCode>11</applicationCode>
+                <IUV>111111111111111</IUV>
+            </numeroAvviso>
+        </paaChiediNumeroAvvisoRisposta>
+    </ws:paaChiediNumeroAvvisoRisposta>
+</soapenv:Body>
+</soapenv:Envelope>

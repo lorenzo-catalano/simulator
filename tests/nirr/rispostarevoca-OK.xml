@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:pspInviaRispostaRevocaResponse>
+         <pspInviaRispostaRevocaResponse>
+            <!--
+            <fault>
+               <faultCode>CANALE_SEMANTICA</faultCode>
+               <faultString>Errore semantico.</faultString>
+               <id>${psp}</id>
+               <description>ER rifiutata dal PSP</description>
+            </fault>
+-->
+            <esito>OK</esito>
+         </pspInviaRispostaRevocaResponse>
+      </ws:pspInviaRispostaRevocaResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

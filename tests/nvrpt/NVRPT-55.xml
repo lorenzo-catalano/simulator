@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <ns5:paaVerificaRPTRisposta xmlns:ns3="http://www.digitpa.gov.it/schemas/2011/Pagamenti/"
+                                    xmlns:ns4="http://ws.pagamenti.telematici.gov/ppthead"
+                                    xmlns:ns5="http://ws.pagamenti.telematici.gov/">
+            <paaVerificaRPTRisposta>
+                <esito>OK</esito>
+            </paaVerificaRPTRisposta>
+        </ns5:paaVerificaRPTRisposta>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.pagamenti.telematici.gov/" xmlns:pag="http://www.digitpa.gov.it/schemas/2011/Pagamenti/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:paaAttivaRPTRisposta>
+            <paaAttivaRPTRisposta>
+                <fault>
+                    <faultCode>PAA_SINTASSI_XSD</faultCode>
+                    <faultString>Errore di sintassi XSD.</faultString>
+                    <id>90000000001</id>
+                    <description>descrizione</description>
+                    <serial>1</serial>
+                </fault>
+                <esito>KO</esito>
+            </paaAttivaRPTRisposta>
+        </ws:paaAttivaRPTRisposta>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <ns1:pspInviaCarrelloRPTResponse xmlns:ns1="http://ws.pagamenti.telematici.gov/" xmlns:ns2="http://www.cnipa.gov.it/schemas/2010/Pagamenti/Ack_1_0/">
+            <pspInviaCarrelloRPTResponse>
+                <fault>
+                    <faultCode>err</faultCode>
+                    <faultString>err</faultString>
+                    <id></id>
+                    <!--Optional:-->
+                    <description>descrizione errore</description>
+                    <!--Optional:-->
+                    <!--<serial>?</serial>-->
+                </fault>
+                <esitoComplessivoOperazione>KO</esitoComplessivoOperazione>
+            </pspInviaCarrelloRPTResponse>
+        </ns1:pspInviaCarrelloRPTResponse>
+    </soap:Body>
+</soap:Envelope>
