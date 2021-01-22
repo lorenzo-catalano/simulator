@@ -8,19 +8,25 @@
             <paaVerificaRPTRisposta>
                 <esito>OK</esito>
                 <datiPagamentoPA>
-                    <importoSingoloVersamento>40.00</importoSingoloVersamento>
+                    <importoSingoloVersamento>1.00</importoSingoloVersamento>
                     <ibanAccredito>IT96R0123454321000000012345</ibanAccredito>
-                    <enteBeneficiario>
+                    <bicAccredito>BSCTCH22</bicAccredito>
+                    <!-- <enteBeneficiario>
                         <ns3:identificativoUnivocoBeneficiario>
                             <ns3:tipoIdentificativoUnivoco>G</ns3:tipoIdentificativoUnivoco>
-                            <ns3:codiceIdentificativoUnivoco>80015010723</ns3:codiceIdentificativoUnivoco>
+                            <ns3:codiceIdentificativoUnivoco>77777777777_05</ns3:codiceIdentificativoUnivoco>
                         </ns3:identificativoUnivocoBeneficiario>
-                        <ns3:denominazioneBeneficiario>COMUNE DI BARI</ns3:denominazioneBeneficiario>
-                        <ns3:indirizzoBeneficiario>CORSO VITTORIO EMANUELE II, 11</ns3:indirizzoBeneficiario>
-                        <ns3:capBeneficiario>70122</ns3:capBeneficiario>
-                        <ns3:localitaBeneficiario>BARI</ns3:localitaBeneficiario>
-                        <ns3:provinciaBeneficiario>BA</ns3:provinciaBeneficiario>
+                        <ns3:denominazioneBeneficiario>f6</ns3:denominazioneBeneficiario>
+                        <ns3:codiceUnitOperBeneficiario>g6</ns3:codiceUnitOperBeneficiario>
+                        <ns3:denomUnitOperBeneficiario>h6</ns3:denomUnitOperBeneficiario>
+                        <ns3:indirizzoBeneficiario>"paaVerificaRPT"</ns3:indirizzoBeneficiario>
+                        <ns3:civicoBeneficiario>ut</ns3:civicoBeneficiario>
+                        <ns3:capBeneficiario>ert</ns3:capBeneficiario>
+                        <ns3:localitaBeneficiario>rt</ns3:localitaBeneficiario>
+                        <ns3:provinciaBeneficiario>fg</ns3:provinciaBeneficiario>
+                        <ns3:nazioneBeneficiario>IT</ns3:nazioneBeneficiario>
                     </enteBeneficiario>
+                    <credenzialiPagatore>ijk</credenzialiPagatore> -->
                     <causaleVersamento></causaleVersamento>
                 </datiPagamentoPA>
             </paaVerificaRPTRisposta>
